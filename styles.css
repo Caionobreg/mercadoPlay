@@ -40,18 +40,30 @@ body {
     margin: 0 130px 0 493px;
 }
 
+.search-box{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
 .search-input {
+    background-color: transparent;
     flex: 1;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
     outline: none;
     height: 45px;
 }
 
 .search-btn {
-    background-color: #fff;
+    background-color: transparent;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -59,10 +71,12 @@ body {
     padding: 10px 20px;
     width: 70px;
     height: 45px;
+    outline: none;
 }
 
 .search-btn:hover {
-    background-color: #f0f0f0;
+    background-color: #ddd;
+    border-radius: 25px;
 }
 
 .right-header {
@@ -79,28 +93,29 @@ body {
     display: flex;
     height: 60px;
     gap: 10px;
+    color: #fff;
+
 }
 
-.user-icon {
-    height: 40px;
-    width: 25px;
-    margin: 5px 25px 0 5px;
-    font-size: 24px;
-    margin-bottom: 5px;
-    font-size: 45px;
+
+
+.user-icon i {
+    padding: 3px;
+    margin: 5px 10px 0 5px;
+    font-size: 30px;
 }
 
 .user-info h3 {
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 5px;
     font-weight: bold;
 }
 
 .user-info a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .cart-header {
@@ -118,11 +133,12 @@ body {
     width: 40px;
     cursor: pointer;
     font-size: 18px;
-    margin-left: 15px;
+    margin-left: 100px;
 }
 
 .cart-btn i {
-    font-size: 35px;
+    color : #fff;
+    font-size: 30px;
 }
 
 .main {
