@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./login.css">
+    <title>Mercado Play</title>
+    <link rel="icon" type="image/png" href="./img/MercadoPlay.jpg">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container1">
+
+            <div class="logo-container">
+
+                <img alt="logo-play" class="logo" src="./img/MercadoPlay.jpg" onclick="location.href='index.html'">
+
+            </div>
+
+            <div id="cartHeader" class="cart-header">
+                <button id="cartBtn" class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <section class="father-container">
+        <div class="card login-active">
+            <div class="left">
+                <div class="form-login">
+                    <h2 class="h2">Fazer Login</h2>
+                    <form>
+                        <input type="text" placeholder="Email">
+                        <input type="password" placeholder="Senha">
+                        <button type="button" class="btn">Entrar</button>
+                    </form>
+                </div>
+
+                <div class="login">
+                    <h2>Ja tem <br>uma conta?</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea atque veritatis ad enim cum,
+                        maiores, eaque vero quas corrupti perferendis consequuntur ?</p>
+                    <button id="login-btn" class="btn1">Faça Login</button>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="form-cadastro">
+                    <h2 class="h2">Cadastrar-se</h2>
+                    <form>
+                        <input type="text" placeholder="Nome Completo">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Senha">
+                        <button type="button" class="btn">Cadastrar</button>
+                    </form>
+
+                </div>
+                <div class="cadastro">
+                    <h2>Não tem <br>uma conta?</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea atque veritatis ad enim cum,
+                        maiores, eaque vero quas corrupti perferendis consequuntur ?</p>
+                    <button id="cadastro-btn" class="btn1">Cadastrar-se</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Play no seu novo jeito de comprar - Developer:
+            Caio Nóbrega</p>
+    </footer>
+
+    <script src="./login.js"></script>
+</body>
+
+</html>
