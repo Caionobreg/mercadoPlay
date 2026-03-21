@@ -11,3 +11,11 @@ cadastroBtn.addEventListener('click', () => {
     card.classList.remove('login-active');
     card.classList.add('cadastro-active');
 });
+
+function voltar() {
+  if (history.length > 1) {
+    history.back();
+  } else {
+    window.location.href = "index.html";
+  }
+}
